@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column; /* Pour aligner le titre en haut */
+    align-items: center; /* Pour centrer horizontalement */
+    min-height: 100vh;
+    background-image: url(savaneacc.jpeg); /* Modification de l'image de fond */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px; /* Ajout de marge en haut */
+
+}
+
+.imagefond {
+    /* Votre style pour l'image de fond */
+}
+
+.login-form {
+    margin-top: 20px; /* Ajoute un peu d'espace en haut du formulaire */
+}
+
+.login-box {
+    position: relative; /* Position relative */
+    max-width: 300px; /* Largeur maximale du conteneur du formulaire */
+    background-color: rgba(240, 240, 240, 0.3); /* Couleur avec opacité réduite */
+    border: 2px solid rgba(240, 240, 240, 0.5); /* Bordure avec opacité réduite */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    backdrop-filter: blur(10px); /* Flou */
+    padding: 20px; /* Rembourrage */
+}
+
+
+
+
+h2 {
+    margin-top: 0; /* Supprime la marge supérieure par défaut */
+}
+
+label {
+    font-weight: bold; /* Met en gras les étiquettes */
+}
+
+.style1,
+.style2 {
+    width: calc(100% - 20px); /* Largeur des champs de texte */
+    margin-bottom: 10px; /* Ajoute un peu d'espace entre les champs */
+    padding: 5px; /* Ajoute un peu de rembourrage aux champs de texte */
+}
+
+.style {
+    width: calc(100% - 20px); /* Largeur du bouton */
+    padding: 10px; /* Ajoute un peu de rembourrage au bouton */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+}
+
+.style:hover {
+    background-color: #0056b3; /* Change la couleur de fond au survol */
+}
+
+a {
+    text-decoration: none; /* Supprime la décoration du lien */
+    color: #007bff; /* Couleur du texte du lien */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}

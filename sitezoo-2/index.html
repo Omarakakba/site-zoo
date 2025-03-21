@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" type="text/css" href="log2.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Connexion</h2>
+            <form action="register.php" method="post">
+                <div class="input-group">
+                    <label for="login">Nom d'utilisateur</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Se connecter</button>
+                <button type="reset" class="btn secondary">Annuler</button>
+            </form>
+            <p class="register-link">Pas encore inscrit ? <a href="enregistrer.html">Créer un compte</a></p>
+        </div>
+    </div>
+</body>
+</html>
